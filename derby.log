@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Sep 08 07:47:16 SAST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-017b-c3f2-0f1a-000005ef4060 
+on database directory memory:/home/abel/git/vaadin-production/interstellar-transport-system/testdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@512ddf17 
+Loaded from file:/home/abel/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.7+8-LTS
+user.dir=/home/abel/git/vaadin-production/interstellar-transport-system
+os.name=Linux
+os.arch=amd64
+os.version=5.4.0-81-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
