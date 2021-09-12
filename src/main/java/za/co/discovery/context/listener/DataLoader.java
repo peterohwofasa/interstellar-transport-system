@@ -24,12 +24,6 @@ import za.co.discovery.domain.Route;
 import za.co.discovery.repository.PlanetRepository;
 import za.co.discovery.repository.RouteRepository;
 
-
-/**
- * 
- * @author Philani Dlamini
- * Reads the XLS data file on the classpath in order to load contents into the DB
- */
 @Component
 @SuppressWarnings("deprecation")
 @Slf4j

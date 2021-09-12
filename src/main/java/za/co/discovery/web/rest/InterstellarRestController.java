@@ -7,13 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import za.co.discovery.bus.DijkstraAlgorithm;
+import za.co.discovery.util.DijkstraAlgorithm;
 
-/**
- * 
- * @author Philani Dlamini
- * This Restful controller delegates to the ShortestPathService stragegy to compute the shortest path
- */
 @RestController
 public class InterstellarRestController {
 	

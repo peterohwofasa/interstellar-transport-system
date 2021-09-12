@@ -1,4 +1,4 @@
-package za.co.discovery.bus;
+package za.co.discovery.util;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -16,23 +16,12 @@ import za.co.discovery.domain.Route;
 import za.co.discovery.repository.PlanetRepository;
 import za.co.discovery.repository.RouteRepository;
 
-
-/**
- * 
- * @author Philani Dlamini
- * ShortestPathService finds the shortest path between two nodes
- * Combination of @Lazy & @PostConstruct ensure the DijkstraAlgorithm weighted graph is only initilized once at service creation time when the service is invoked
- * Weighted graph is not eagerly loaded hogging precious resources
- * When the service gets destroyed lets use @PreDestroy to set the graph reference to null so it can get garbage collected
- */
 @Service
 @Lazy
 @Slf4j
 public class ShortestPathService implements DijkstraAlgorithm  {
 	
 
-	//static final Logger log = org.apache.log4j.Logger.getLogger(ShortestPathService.class);
-	
 	@Autowired
 	private PlanetRepository planetRepo;
 

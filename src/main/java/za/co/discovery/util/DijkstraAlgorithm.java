@@ -1,4 +1,4 @@
-package za.co.discovery.bus;
+package za.co.discovery.util;
 
 public interface DijkstraAlgorithm {
 	
